@@ -101,25 +101,10 @@ pio run -e hub --target upload --upload-port COM3
 pio run -e controller --target upload --upload-port COM4
 ```
 
-## Піни (T-Display)
-
-### Hub
-- SDA: GPIO 21
-- SCL: GPIO 22
-- Кнопка 1: GPIO 0
-- Кнопка 2: GPIO 35
-
-### Controller
-- SDA: GPIO 21
-- SCL: GPIO 22
-- RS485 TX: GPIO 17
-- RS485 RX: GPIO 16
-- Кнопка 1: GPIO 0
-- Кнопка 2: GPIO 35
 
 ## Дисплей
 
-Обидва пристрої використовують OLED 135x240 (ST7789).
+Обидва пристрої використовують GMT020-02-7P TFT 320x240 (ST7789).
 
 Інформація на екрані:
 - Рамка з назвою пристрою
